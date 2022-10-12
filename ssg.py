@@ -9,3 +9,6 @@ def main(source="content", dest="dist"):
               "parser": [ssg.parsers.ResourceParser(),],
               }
     Site(**config).build()
+
+    
+typer.run(main)
