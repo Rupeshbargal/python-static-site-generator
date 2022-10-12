@@ -28,6 +28,3 @@ class ResourceParser():
 
     def parse(self, path, source, dest):
         self.copy(path, source, dest)
-    
-     def copy(self, path, source, dest):
-        pass
